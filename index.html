@@ -15,7 +15,7 @@ title: Home
 	
 	<div>
 	
-	{% for category in page.categories %}
+	{% for category in site.categories %}
 	  <h2><a href="/categories/{{ category | slugize }}">{{ category }}</a></h2>
 	  <h6>{{ site.categories[category] | length }} posts</h6>
 
