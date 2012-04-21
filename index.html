@@ -1,7 +1,14 @@
 ---
 layout: default
-no_sidebar: true
 title: Home
 ---
 
 	<h1>Nothing to see here</h1>
+
+	<div>
+		<h2>Latest Posts</h2>
+
+		{% assign posts = site.posts %}
+		{% assign listing_limit = 5 %}
+		{% include post-listing.html %}
+	</div>
