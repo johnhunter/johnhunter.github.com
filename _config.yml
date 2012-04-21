@@ -1,0 +1,20 @@
+auto: false
+server: false
+source: .
+destination: ./_site
+
+url: http://johnhunter.github.com
+baseurl: /
+permalink: /:year/:month/:day/:title
+
+lsi: false
+paginate: 10
+pygments: true
+
+exclude: ["README.md"]
+title: John Hunter
+author: John Hunter
+
+github_user: johnhunter
+copyright: Copyright (c) 2012
+

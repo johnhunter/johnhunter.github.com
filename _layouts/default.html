@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% if page.title %}
+	<title>{{ page.title }} - {{ site.title }}</title>
+{% else %}
+	<title>{{ site.title }}</title>
+{% endif %}
+
+	<link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+
+{{ content }}
+
+
+<script src="all.js"></script>
+</body>
+</html>
+
+
+
